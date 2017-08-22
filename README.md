@@ -230,3 +230,5 @@ Thật không thể tin nổi :D
 
 Kết luận
 Qua đây chúng ta thấy việc tạo ra 1 ứng dụng nhỏ cho việc chat trực tuyến không khó lắm, khá đơn giản phải không? Tuy nhiên trong quá trình làm cũng có vài khó khăn như nếu như trong đoạn code của ta bị phát sinh lỗi thì toàn bộ dự án treo luôn (sad). Và ở đây chưa có phần lưu lại nội dung chat cũ từ quá khứ. Những cái này có thể chúng ta nghiên cứu kỹ hơn khi làm việc với Mongo DB.
+
+nguon: viblo.asia
