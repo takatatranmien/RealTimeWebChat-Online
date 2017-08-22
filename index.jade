@@ -1,0 +1,32 @@
+html
+    head
+        title= "Real time web chat"
+        script(src='/chat.js')
+        script(src='/socket.io/socket.io.js')
+    body
+        #content(style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+        .controls
+            | Name:
+            input#name(style='width:350px;')
+            br
+            input#field(style='width:350px;')
+            input#send(type='button', value='send')
+
+
+
+
+//- <!DOCTYPE html>
+//- <html>
+//- <head>
+//- <title>Real time web chat</title>
+//- <script type="text/javascript" src="/chat.js"></script>
+//- <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+//- </head>
+//- <body>
+//- <div id="content" style="width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;"></div>
+//- <div class="controls">
+//- <input id="field" style="width:350px;">
+//- <input id="send" type="button" value="send">
+//- </div>
+//- </body>
+//- </html>
